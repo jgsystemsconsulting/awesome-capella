@@ -1,3 +1,5 @@
+# Copyright (c) 2026 JG Systems Consulting Ltd. See LICENSE.
+# SPDX-License-Identifier: CC0-1.0
 import re
 import sys
 from urllib.parse import urlsplit

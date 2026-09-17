@@ -11,6 +11,45 @@ FAMILY.md hyperlinks from public spokes).
 Maintained by [JG Systems Consulting Ltd.](https://github.com/jgsystemsconsulting).
 See [Editorial neutrality](CONTRIBUTING.md#editorial-neutrality).
 
+
+## Install
+
+Nothing to install. Browse this list on GitHub, or clone the repository:
+
+```bash
+git clone https://github.com/jgsystemsconsulting/awesome-capella.git
+```
+
+## Usage
+
+1. Open the [Contents](#contents) and jump to a section.
+2. Follow entry links to Capella, Arcadia, addon, and learning resources.
+3. Suggest a new resource with the
+   [Suggest a resource](https://github.com/jgsystemsconsulting/awesome-capella/issues/new?template=suggest-resource.yml)
+   form, or open a pull request that follows CONTRIBUTING.md.
+4. Report a dead link or list defect with a
+   [bug report](https://github.com/jgsystemsconsulting/awesome-capella/issues/new?template=bug_report.yml).
+
+## Licence
+
+This list is dedicated to the public domain under [CC0 1.0 Universal](LICENSE).
+Linked resources keep their own licences.
+
+For commercial or academic licence questions, or to ask which licence applies:
+https://labs.jgsystemsconsulting.com/licensing.html
+
+## Support
+
+- Bug or dead link: [bug report form](https://github.com/jgsystemsconsulting/awesome-capella/issues/new?template=bug_report.yml)
+- New resource suggestion: [suggestion form](https://github.com/jgsystemsconsulting/awesome-capella/issues/new?template=suggest-resource.yml)
+- Security issues: [private security advisory](https://github.com/jgsystemsconsulting/awesome-capella/security/advisories/new)
+- Sibling SysML v2 list issues:
+  [awesome-sysml-v2 issues](https://github.com/jgsystemsconsulting/awesome-sysml-v2/issues)
+
+## Version
+
+Current release: **0.1.0** (2026-09-17). See [CHANGELOG.md](CHANGELOG.md).
+
 ## Contents
 
 - [Arcadia method](#arcadia-method)
