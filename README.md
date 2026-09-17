@@ -22,6 +22,10 @@ See [Editorial neutrality](CONTRIBUTING.md#editorial-neutrality).
 - [Community and events](#community-and-events)
 - [Example models and case studies](#example-models-and-case-studies)
 - [Commercial offers](#commercial-offers)
+- [Install](#install)
+- [Usage](#usage)
+- [Support](#support)
+- [Version](#version)
 
 ## Arcadia method
 
