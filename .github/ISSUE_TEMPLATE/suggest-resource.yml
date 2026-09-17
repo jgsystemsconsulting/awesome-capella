@@ -1,0 +1,56 @@
+name: Suggest a resource
+description: Suggest a Capella / Arcadia MBSE resource to add to the list
+title: "[Suggestion] <resource name>"
+labels: ["suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      placeholder: e.g. Capella Handbook
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line description (≤ 140 characters, factual, no hype)
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Which section does it belong in?
+      options:
+        - Arcadia method
+        - Capella core
+        - Addons and extensions
+        - Scripting and automation
+        - Collaboration and model management
+        - Books, courses, and training
+        - Community and events
+        - Example models and case studies
+        - Commercial offers
+    validations:
+      required: true
+  - type: checkboxes
+    id: bar
+    attributes:
+      label: Inclusion bar (see CONTRIBUTING.md)
+      options:
+        - label: On-topic for Capella or the Arcadia method (not general MBSE only)
+          required: true
+        - label: Substantive (teaches/demonstrates/specifies/provides something usable — not pure marketing)
+          required: true
+        - label: The link is live right now
+          required: true
+        - label: It isn't already in the list (canonical-URL rule, CONTRIBUTING.md §6)
+          required: true
+        - label: Publicly accessible (we link, we never re-host); not a banned host
+          required: true

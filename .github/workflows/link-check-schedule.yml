@@ -1,0 +1,52 @@
+name: link-check (weekly)
+
+# Freshness engine: every week, find rotted links and keep exactly ONE open
+# tracking issue. Does not fail noisily — it reports. See spec §5.2.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write # required for the close + create steps below
+
+jobs:
+  link-rot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links (report only, never fail)
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # master w/ nested-tarball install fix (>v2.8.0)
+        with:
+          lycheeVersion: v0.24.2
+          args: >-
+            --include-fragments=anchor-only
+            --max-concurrency 4
+            --accept 200..=299,429
+            --no-progress
+            README.md
+          fail: false
+          output: ./lychee/out.md
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Stock create-issue-from-file does NOT dedupe/update, so we enforce a single
+      # open report ourselves: close any existing open link-rot issue first, then
+      # create the fresh one (spec §5.2). gh needs GH_TOKEN explicitly — the ambient
+      # token is not auto-visible to it as auth.
+      - name: Close previous link-rot report
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for n in $(gh issue list --label link-rot --state open --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "Superseded by this week's link-rot report."
+          done
+
+      - name: Open this week's link-rot report
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Weekly link-rot report"
+          content-filepath: ./lychee/out.md
+          labels: link-rot

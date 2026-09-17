@@ -1,0 +1,65 @@
+name: link-check (PR)
+
+# Gate on contributions: a dead new link fails the PR, and the README must stay
+# awesome-lint and markdownlint conformant (FAMILY CI triad: hub lychee + awesome-lint,
+# sysml-v2-style markdownlint). workflow_dispatch lets the maintainer produce a green
+# triad run on main after a direct push (AC2).
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "CONTRIBUTING.md"
+      - "scripts/**"
+      - ".lycheeignore"
+      - ".github/workflows/link-check-pr.yml"
+  workflow_dispatch: {}
+
+concurrency:
+  group: link-check-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links and in-doc anchors
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # master w/ nested-tarball install fix (>v2.8.0)
+        with:
+          # --include-fragments=anchor-only validates the hand-maintained flat
+          # Contents ToC. GITHUB_TOKEN makes the many github.com links check
+          # authenticated, avoiding the 60 req/hr anonymous rate limit that
+          # reports live links as dead.
+          lycheeVersion: v0.24.2
+          args: >-
+            --include-fragments=anchor-only
+            --max-concurrency 4
+            --accept 200..=299,429
+            --no-progress
+            README.md
+          fail: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Awesome-list manifest conformance
+        run: npx -y awesome-lint@2.3.0 README.md
+
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Markdown lint
+        run: npx -y markdownlint-cli2 "README.md" "CONTRIBUTING.md"
