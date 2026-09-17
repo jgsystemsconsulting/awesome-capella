@@ -5,11 +5,11 @@ Last reviewed: 0.1.0 (2026-09-17)
 Per-channel status for Awesome Capella under Release Repo Standard RR-B-36.
 
 | Channel | Status | Decision / notes | Date |
-|---------|--------|------------------|------|
-| GitHub repository | live | Public spoke at https://github.com/jgsystemsconsulting/awesome-capella | 2026-09-17 |
-| GitHub Releases | pending | Tag v0.1.0 and Release after merge (Task 6) | 2026-09-17 |
-| GitHub Pages landing | pending | docs/index.html; enable after merge | 2026-09-17 |
-| About / topics / homepage | pending | Set after Pages serves | 2026-09-17 |
+| --- | --- | --- | --- |
+| GitHub repository | live | Public spoke at [awesome-capella](https://github.com/jgsystemsconsulting/awesome-capella) | 2026-09-17 |
+| GitHub Releases | live | Tag and Release v0.1.0 published | 2026-09-17 |
+| GitHub Pages landing | live | Served from /docs at jgsystemsconsulting.github.io/awesome-capella | 2026-09-17 |
+| About / topics / homepage | applied | Description, six topics, homepage URL set | 2026-09-17 |
 | Org catalogue | planned | No org catalogue entry yet | 2026-09-17 |
 | sindresorhus/awesome | deferred | Acceptability gate; family runbook owns main-list submission | 2026-09-17 |
 | In-host agent marketplaces (RR-B-29) | deliberate N/A | Curated link list is not an agent plugin | 2026-09-17 |
