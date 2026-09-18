@@ -1,10 +1,6 @@
 # Awesome Capella [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-<p align="right">
-  <a href="https://jgsystemsconsulting.github.io/awesome-capella/">
-    <img src="media/logo.svg" width="256" alt="list mark">
-  </a>
-</p>
+[<img src="media/logo.svg" align="right" width="100" alt="Capella">](https://jgsystemsconsulting.github.io/awesome-capella/)
 
 > Curated Capella tool and Arcadia method resources for MBSE practitioners.
 
