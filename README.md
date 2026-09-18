@@ -24,10 +24,6 @@ See [Editorial neutrality](CONTRIBUTING.md#editorial-neutrality).
 - [Community and events](#community-and-events)
 - [Example models and case studies](#example-models-and-case-studies)
 - [Commercial offers](#commercial-offers)
-- [Install](#install)
-- [Usage](#usage)
-- [Support](#support)
-- [Version](#version)
 
 ## Arcadia method
 
@@ -129,9 +125,15 @@ See [Editorial neutrality](CONTRIBUTING.md#editorial-neutrality).
 - [SysML Bridge for Capella](https://www.obeosoft.com/en/products/sysml-bridge-for-capella) - Obeo bridge between Capella/Arcadia models and SysML tooling `SysML-general` `tool` `paid` (2026).
 - [Capella ecosystem services](https://mbse-capella.org/services.html) - Directory of training, coaching, and integration service offers around Capella `Capella` `docs` (2026).
 
+## Contributing
+
+Contributions welcome: see [CONTRIBUTING.md](CONTRIBUTING.md) for the inclusion bar,
+entry format, and tag vocabulary.
+
 ## Install
 
-Nothing to install. Browse this list on GitHub, or clone the repository:
+Nothing to install. This list is a curated index: browse it here on GitHub,
+or clone it:
 
 ```bash
 git clone https://github.com/jgsystemsconsulting/awesome-capella.git
@@ -139,18 +141,24 @@ git clone https://github.com/jgsystemsconsulting/awesome-capella.git
 
 ## Usage
 
-1. Open the Contents at the top and jump to a section.
-2. Follow entry links to Capella, Arcadia, addon, and learning resources.
-3. To suggest a resource or report a defect, use the Support channels below (or open a pull request that follows CONTRIBUTING.md).
+1. Open the Contents at the top and jump to a section, or search the page with
+   your browser's find function.
+2. Open any entry's link to reach the upstream resource; the list never
+   re-hosts content.
+3. To suggest a resource or report a defect, use the Support channels below
+   (or open a pull request that follows CONTRIBUTING.md).
 
 ## Support
 
 - Bug or dead link: [bug report form](https://github.com/jgsystemsconsulting/awesome-capella/issues/new?template=bug_report.yml)
-- New resource suggestion: [suggestion form](https://github.com/jgsystemsconsulting/awesome-capella/issues/new?template=suggest-resource.yml)
+- Suggest a resource (the list's improvement channel):
+  [suggestion form](https://github.com/jgsystemsconsulting/awesome-capella/issues/new?template=suggest-resource.yml)
 - Security issues: [private security advisory](https://github.com/jgsystemsconsulting/awesome-capella/security/advisories/new)
-- Sibling SysML v2 list issues: [awesome-sysml-v2 issues](https://github.com/jgsystemsconsulting/awesome-sysml-v2/issues)
+  (see [SECURITY.md](SECURITY.md))
+- SysML v2 language resources belong on the sibling list:
+  [awesome-sysml-v2](https://github.com/jgsystemsconsulting/awesome-sysml-v2)
 
 ## Version
 
-Current release: **0.1.0** (2026-09-17). See [CHANGELOG.md](CHANGELOG.md).
-
+Current release: **0.1.0** (2026-09-17). See [CHANGELOG.md](CHANGELOG.md) and
+[RELEASE-INFO.txt](RELEASE-INFO.txt).
