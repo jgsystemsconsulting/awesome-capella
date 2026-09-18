@@ -16,3 +16,6 @@ venv/
 .lycheecache/
 .playwright-mcp/
 *.bak
+# Local SA / link-check artifacts
+docs/superpowers/sa-audit-*.json
+sa-audit-*.json

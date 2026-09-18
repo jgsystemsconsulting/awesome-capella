@@ -1,5 +1,11 @@
 # Awesome Capella [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<p align="right">
+  <a href="https://jgsystemsconsulting.github.io/awesome-capella/">
+    <img src="media/logo.svg" width="256" alt="list mark">
+  </a>
+</p>
+
 > Curated Capella tool and Arcadia method resources for MBSE practitioners.
 
 ![Last full sweep: 2026-09](https://img.shields.io/badge/last%20full%20sweep-2026--09-brightgreen)
@@ -147,7 +153,6 @@ git clone https://github.com/jgsystemsconsulting/awesome-capella.git
 - New resource suggestion: [suggestion form](https://github.com/jgsystemsconsulting/awesome-capella/issues/new?template=suggest-resource.yml)
 - Security issues: [private security advisory](https://github.com/jgsystemsconsulting/awesome-capella/security/advisories/new)
 - Sibling SysML v2 list issues: [awesome-sysml-v2 issues](https://github.com/jgsystemsconsulting/awesome-sysml-v2/issues)
-- Licence: this list is [CC0 1.0 Universal](LICENSE). Linked resources keep their own licences. Licence enquiries: [labs licensing form](https://labs.jgsystemsconsulting.com/licensing.html).
 
 ## Version
 
