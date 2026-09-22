@@ -10,6 +10,8 @@ Part of the awesome-mbse list family (hub: jgsystemsconsulting/awesome-mbse).
 Text-only family pointer while the hub is private (FAMILY Private mode: no
 FAMILY.md hyperlinks from public spokes).
 
+People and organizations behind these resources: [awesome-mbse-community](https://github.com/jgsystemsconsulting/awesome-mbse-community).
+
 Maintained by [JG Systems Consulting Ltd.](https://github.com/jgsystemsconsulting).
 See [Editorial neutrality](CONTRIBUTING.md#editorial-neutrality).
 
