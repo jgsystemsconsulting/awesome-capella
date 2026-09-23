@@ -24,6 +24,10 @@ See [Editorial neutrality](CONTRIBUTING.md#editorial-neutrality).
 - [Community and events](#community-and-events)
 - [Example models and case studies](#example-models-and-case-studies)
 - [Commercial offers](#commercial-offers)
+- [Install](#install)
+- [Usage](#usage)
+- [Support](#support)
+- [Version](#version)
 
 ## Arcadia method
 
@@ -160,9 +164,8 @@ git clone https://github.com/jgsystemsconsulting/awesome-capella.git
 
 ## Version
 
+Copyright (c) 2026 JG Systems Consulting Ltd. See [LICENSE](LICENSE). No purchase or licence key is needed to use this list; for commercial questions, see [labs.jgsystemsconsulting.com/licensing.html](https://labs.jgsystemsconsulting.com/licensing.html).
+
 Current release: **0.1.0** (2026-09-17). See [CHANGELOG.md](CHANGELOG.md) and
 [RELEASE-INFO.txt](RELEASE-INFO.txt).
 
-## Licence
-
-Copyright (c) 2026 JG Systems Consulting Ltd. See [LICENSE](LICENSE). No purchase or licence key is needed to use this list; for commercial questions, see [labs.jgsystemsconsulting.com/licensing.html](https://labs.jgsystemsconsulting.com/licensing.html).
