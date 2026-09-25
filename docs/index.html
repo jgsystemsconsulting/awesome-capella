@@ -1,64 +1,218 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- Copyright (c) 2026 JG Systems Consulting Ltd. See LICENSE. -->
+<!-- Built from the jgs-site-template shell (light theme): edit site.config.json, run tools/build.py. -->
+<!-- SPDX-License-Identifier: MIT -->
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a0b'/%3E%3Ctext x='16' y='24' font-family='monospace' font-weight='700' font-size='22' fill='%23f4f2ec' text-anchor='middle'%3E%C2%A7%3C/text%3E%3C/svg%3E">
-  <title>Awesome Capella</title>
-  <meta name="description" content="Curated Capella tool and Arcadia method resources for MBSE practitioners.">
-  <link rel="canonical" href="https://jgsystemsconsulting.github.io/awesome-capella/">
-  <meta property="og:title" content="Awesome Capella">
-  <meta property="og:description" content="Curated Capella tool and Arcadia method resources for MBSE practitioners.">
-  <meta property="og:url" content="https://jgsystemsconsulting.github.io/awesome-capella/">
-  <meta property="og:type" content="website">
-  <style>
-    :root { color-scheme: light dark; }
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.5;
-      max-width: 42rem;
-      padding: 1.5rem;
-    }
-    a:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
-    @media (prefers-reduced-motion: reduce) {
-      * { animation: none !important; transition: none !important; }
-    }
-    header { margin-bottom: 1.5rem; }
-    h1 { font-size: 1.75rem; margin: 0 0 0.5rem; }
-    .meta { opacity: 0.85; font-size: 0.95rem; }
-    ul { padding-left: 1.2rem; }
-    footer { margin-top: 2rem; font-size: 0.9rem; opacity: 0.9; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Awesome Capella: curated Capella tool and Arcadia method resources for MBSE practitioners</title>
+<meta name="description" content="Curated Capella tool and Arcadia method resources for MBSE practitioners.">
+<link rel="canonical" href="https://jgsystemsconsulting.github.io/awesome-capella/">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a0b'/%3E%3Ctext x='16' y='24' font-family='monospace' font-weight='700' font-size='22' fill='%23f4f2ec' text-anchor='middle'%3E%C2%A7%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="site.css?v=20260925b">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jgsystemsconsulting.github.io/awesome-capella/">
+<meta property="og:title" content="Awesome Capella">
+<meta property="og:description" content="Curated Capella tool and Arcadia method resources for MBSE practitioners.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Awesome Capella","applicationCategory":"DeveloperApplication","operatingSystem":"Any","softwareVersion":"0.1.0","license":"https://github.com/jgsystemsconsulting/awesome-capella/blob/main/LICENSE","url":"https://jgsystemsconsulting.github.io/awesome-capella/","codeRepository":"https://github.com/jgsystemsconsulting/awesome-capella","author":{"@type":"Organization","name":"JG Systems Consulting Ltd"}}
+</script>
 </head>
 <body>
-  <header>
-    <h1>Awesome Capella</h1>
-    <p class="meta">Curated Capella tool and Arcadia method resources for MBSE practitioners. Version 0.1.0.</p>
-  </header>
-  <main>
-    <p>
-      This is a public-domain (CC0) curated index of Eclipse Capella, the Arcadia
-      method, addons, scripting libraries, training, and related community material.
-      Nothing to install: open the list and follow the links.
-    </p>
-    <h2>First run</h2>
-    <ol>
-      <li>Open the full list on GitHub (README with searchable Contents).</li>
-      <li>Jump to a section that matches your work (method, tool, scripting, training).</li>
-      <li>Suggest a resource or report a dead link via the repository issue forms.</li>
-    </ol>
-    <h2>Links</h2>
-    <ul>
-      <li><a href="https://github.com/jgsystemsconsulting/awesome-capella">GitHub repository and full README</a></li>
-      <li><a href="https://github.com/jgsystemsconsulting/awesome-capella/blob/main/CONTRIBUTING.md">How to contribute</a></li>
-      <li><a href="https://github.com/jgsystemsconsulting/awesome-capella/issues/new?template=suggest-resource.yml">Suggest a resource</a></li>
-      <li><a href="https://github.com/jgsystemsconsulting/awesome-capella/issues/new?template=bug_report.yml">Report a bug or dead link</a></li>
-      <li><a href="https://labs.jgsystemsconsulting.com/licensing.html">Licence enquiries</a></li>
-    </ul>
-  </main>
-  <footer>
-    <p>Maintained by JG Systems Consulting Ltd. Licence: <a href="https://github.com/jgsystemsconsulting/awesome-capella/blob/main/LICENSE">CC0-1.0</a>.</p>
-  </footer>
+
+<header class="masthead"><div class="wrap">
+  <span>CLASSIFICATION: <b>PUBLIC</b></span>
+  <span>LICENCE: <b>CC0-1.0</b></span>
+  <span>DOC-ID: <b>JGS-AWE-CAPELLA</b></span>
+  <span>REV <b>0.1.0</b></span>
+</div></header>
+
+<nav class="site" aria-label="Site"><div class="wrap">
+  <a class="brand" href="index.html" aria-label="JG Systems Consulting home"><img src="images/jgs-emblem-dark.png" alt="" width="28" height="28"></a>
+  <a href="#about">About</a>
+  <a href="#arcadia-method">Arcadia</a>
+  <a href="#capella-core">Core</a>
+  <a href="#addons-and-extensions">Addons</a>
+  <a href="#scripting-and-automation">Scripting</a>
+  <a href="#collaboration-and-model-management">Collab</a>
+  <a href="#books-courses-and-training">Training</a>
+  <a href="#community-and-events">Community</a>
+  <a href="#example-models-and-case-studies">Examples</a>
+  <a href="#commercial-offers">Commercial</a>
+  <a href="#install-usage">Install</a>
+</nav>
+
+<main>
+<div class="hero"><div class="wrap">
+  <h1>Awesome Capella</h1>
+  <p>Curated Capella tool and Arcadia method resources for MBSE practitioners.</p>
+  <p class="sub">Open the full list on GitHub for searchable Contents, then jump to the section that matches your work.</p>
+  <div class="cta"><a class="btn btn-primary" href="https://github.com/jgsystemsconsulting/awesome-capella/blob/main/README.md">Open full list <span aria-hidden="true">&rarr;</span></a>
+  <a class="btn btn-ghost" href="https://github.com/jgsystemsconsulting/awesome-capella/issues/new?template=suggest-resource.yml">Suggest a resource <span aria-hidden="true">&rarr;</span></a></div>
+</div></div>
+
+<section id="about"><div class="wrap">
+  <div class="shead"><span class="label">&sect;01 &middot; About</span><h2>Public contributions only</h2></div>
+  <p class="lead">Public-domain (CC0) curated index of Eclipse Capella, the Arcadia method, add-ons, scripting libraries, training, and related community material. Nothing to install: open the list and follow the links. The list never re-hosts upstream content.</p>
+<div class="meta-row"><span>version <b>0.1.0</b></span><span>sweep <b>2026-09</b></span><span>entries <b>73</b></span></div>
+<p class="lead" style="margin-top:1.25rem">Part of the <a href="https://github.com/jgsystemsconsulting/awesome-mbse/blob/main/FAMILY.md">awesome-mbse list family</a>. People and organizations behind these resources: <a href="https://github.com/jgsystemsconsulting/awesome-mbse-community">awesome-mbse-community</a>. Maintained by <a href="https://github.com/jgsystemsconsulting">JG Systems Consulting Ltd.</a> See <a href="https://github.com/jgsystemsconsulting/awesome-capella/blob/main/CONTRIBUTING.md#editorial-neutrality">Editorial neutrality</a>.</p>
+</div></section>
+
+<section id="arcadia-method"><div class="wrap">
+  <div class="shead"><span class="label">&sect;02 &middot; Arcadia method</span><h2>Arcadia method</h2></div>
+  <ul class="entry-list">
+<li><a href="https://mbse-capella.org/arcadia.html">The Arcadia method</a> - Official Arcadia method page citing AFNOR XP Z67-140 and the architecture perspectives<span class="tags"><code>Capella</code> <code>Arcadia</code> <code>docs</code> <code>standard</code> (2026)</span></li>
+<li><a href="https://mbse-capella.org/arcadia-reference.html">Arcadia reference documents</a> - Index of Arcadia reference PDFs covering landscape, activities, data model, and language<span class="tags"><code>Capella</code> <code>Arcadia</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://mbse-capella.org/resources/arcadia-reference/Arcadia%20User%20Guide.pdf">Arcadia User Guide (Voirin)</a> - Thales Arcadia principles and contents overview by Jean-Luc Voirin<span class="tags"><code>Capella</code> <code>Arcadia</code> <code>docs</code> (2023)</span></li>
+<li><a href="https://mbse-capella.org/resources/arcadia-reference/Arcadia%20Engineering%20Landscape.pdf">Arcadia Engineering Landscape (Voirin)</a> - Introduces Arcadia scope and the engineering landscape for architecture work<span class="tags"><code>Capella</code> <code>Arcadia</code> <code>docs</code> (2023)</span></li>
+<li><a href="https://mbse-capella.org/resources/arcadia-reference/Arcadia%20Language%20-%20MetaModel.pdf">Arcadia Language MetaModel (Voirin)</a> - Detailed Arcadia language concepts and metamodel reference<span class="tags"><code>Capella</code> <code>Arcadia</code> <code>docs</code> (2023)</span></li>
+<li><a href="https://mbse-capella.org/arcadia_capella_sysml_tool.html">SysML and Arcadia/Capella equivalences</a> - Official comparison of SysML concepts with Arcadia perspectives and Capella tooling<span class="tags"><code>SysML-general</code> <code>Arcadia</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://download.eclipse.org/capella/publis/An_Introduction_to_Arcadia_20150115.pdf">An Introduction to Arcadia (Voirin)</a> - Open primer on Arcadia perspectives and engineering workflow<span class="tags"><code>Capella</code> <code>Arcadia</code> <code>paper</code> (2015)</span></li>
+</ul>
+</div></section>
+
+<section id="capella-core"><div class="wrap">
+  <div class="shead"><span class="label">&sect;03 &middot; Capella core</span><h2>Capella core</h2></div>
+  <ul class="entry-list">
+<li><a href="https://mbse-capella.org/">Eclipse Capella</a> - Official home of the open-source Capella MBSE workbench implementing the Arcadia method<span class="tags"><code>Capella</code> <code>tool</code> (2026)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella">Capella source repository</a> - Primary Eclipse Capella source tree (EPL-2.0) for the modeling workbench<span class="tags"><code>Capella</code> <code>tool</code> (2026)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella/releases">Capella releases</a> - Tagged Capella product builds, including the v7.1.0 line<span class="tags"><code>Capella</code> <code>tool</code> (2026)</span></li>
+<li><a href="https://mbse-capella.org/download.html">Capella download</a> - Official download page for Capella packages, sample models, and Capella Studio<span class="tags"><code>Capella</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://mbse-capella.org/features.html">Capella features</a> - Overview of Capella diagrams, tooling benefits, and multi-viewpoint modeling features<span class="tags"><code>Capella</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://mbse-capella.org/getstarted.html">Get started with Capella</a> - Install guide entry point plus the Toy Catapult learning tutorial path<span class="tags"><code>Capella</code> <code>tutorial</code> (2026)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella/wiki">Capella wiki</a> - Project wiki for release notes, PVMT notes, and contributor-facing Capella docs<span class="tags"><code>Capella</code> <code>docs</code> (2026)</span></li>
+</ul>
+</div></section>
+
+<section id="addons-and-extensions"><div class="wrap">
+  <div class="shead"><span class="label">&sect;04 &middot; Addons and extensions</span><h2>Addons and extensions</h2></div>
+  <ul class="entry-list">
+<li><a href="https://mbse-capella.org/addons.html">Capella addons catalog</a> - Official catalog of open-source and commercial Capella add-ons and viewpoints<span class="tags"><code>Capella</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella-requirements-vp">Requirements Viewpoint</a> - Capella add-on that imports requirements sets from ReqIF into the model<span class="tags"><code>Capella</code> <code>plugin</code> (2024)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella-cybersecurity">Cybersecurity Viewpoint (Darc)</a> - Darc viewpoint for cybersecurity assets and threat modeling analysis in Capella<span class="tags"><code>Capella</code> <code>plugin</code> (2024)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella-xhtml-docgen">XHTML Documentation Generation</a> - Add-on that generates HTML documentation output from Capella models<span class="tags"><code>Capella</code> <code>plugin</code> (2024)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella-sss-transition">System to Subsystem Transition</a> - Automated iterative transition between system and subsystem Capella models<span class="tags"><code>Capella</code> <code>plugin</code> (2026)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella-studio">Capella Studio</a> - Open-source SDK for developing Capella add-ons and viewpoints<span class="tags"><code>Capella</code> <code>Capella-Studio</code> <code>tool</code> (2024)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella-filtering">Capella Filtering</a> - Add-on to filter Capella model content for stakeholder-specific views<span class="tags"><code>Capella</code> <code>plugin</code> (2024)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella-basic-vp">Basic Viewpoints</a> - Mass, price, performance, and basic requirement viewpoints for Capella models<span class="tags"><code>Capella</code> <code>plugin</code> (2024)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella-textual-editor">Textual Scenario Editor</a> - Add-on for editing Capella scenarios in a textual editor<span class="tags"><code>Capella</code> <code>plugin</code> (2024)</span></li>
+<li><a href="https://github.com/labs4capella/stpa-capella">STPA Viewpoint for Capella</a> - STPA safety analysis viewpoint integrated with Capella models<span class="tags"><code>Capella</code> <code>plugin</code> (2026)</span></li>
+<li><a href="https://github.com/labs4capella/DSM4Capella">DSM4Capella</a> - Design structure matrix analysis utilities for Capella architecture models<span class="tags"><code>Capella</code> <code>plugin</code> (2024)</span></li>
+<li><a href="https://github.com/labs4capella/bridge-capella-ea">Capella Bridge for Enterprise Architect</a> - Bridge linking Capella models with Sparx Enterprise Architect<span class="tags"><code>Capella</code> <code>plugin</code> (2022)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella-simulink-connector">Capella Simulink Connector</a> - Connector between Capella architecture models and Simulink models<span class="tags"><code>Capella</code> <code>plugin</code> (2026)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella-vpms">Modes and States Viewpoint (VPMS)</a> - Extends Capella modes and states definition and consistency analysis<span class="tags"><code>Capella</code> <code>plugin</code> (2023)</span></li>
+<li><a href="https://www.m2doc.org/capella/">M2Doc for Capella</a> - Document generation add-on producing Office documents from Capella models<span class="tags"><code>Capella</code> <code>plugin</code> (2026)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella/wiki/PVMT">Property Value Management Tool (PVMT)</a> - Capella wiki page for the PVMT property-value and diagram styler add-on<span class="tags"><code>Capella</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://labs4capella.github.io/">Labs for Capella</a> - Community lab site hosting experimental Capella viewpoints and utilities<span class="tags"><code>Capella</code> <code>docs</code> (2024)</span></li>
+</ul>
+</div></section>
+
+<section id="scripting-and-automation"><div class="wrap">
+  <div class="shead"><span class="label">&sect;05 &middot; Scripting and automation</span><h2>Scripting and automation</h2></div>
+  <ul class="entry-list">
+<li><a href="https://github.com/labs4capella/python4capella">python4capella</a> - Python API and scripting library to interact with Capella models inside the tool<span class="tags"><code>Capella</code> <code>python4capella</code> <code>tool</code> (2026)</span></li>
+<li><a href="https://github.com/dbinfrago/py-capellambse">py-capellambse</a> - Headless Python library to load, traverse, diff, and generate from Capella models<span class="tags"><code>Capella</code> <code>py-capellambse</code> <code>tool</code> (2026)</span></li>
+<li><a href="https://dbinfrago.github.io/py-capellambse/">py-capellambse documentation</a> - Project documentation for the headless py-capellambse Capella library<span class="tags"><code>Capella</code> <code>py-capellambse</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://github.com/labs4capella/csv-converter">CSV Converter for Capella</a> - Labs4Capella utility converting Capella model data to and from CSV tables<span class="tags"><code>Capella</code> <code>tool</code> (2022)</span></li>
+</ul>
+</div></section>
+
+<section id="collaboration-and-model-management"><div class="wrap">
+  <div class="shead"><span class="label">&sect;06 &middot; Collaboration and model management</span><h2>Collaboration and model management</h2></div>
+  <ul class="entry-list">
+<li><a href="https://www.obeosoft.com/en/products/team-for-capella">Team for Capella</a> - Obeo product for multi-user Capella model collaboration and shared repositories<span class="tags"><code>Capella</code> <code>tool</code> <code>paid</code> (2026)</span></li>
+<li><a href="https://www.obeosoft.com/en/products/cloud-for-capella">Cloud for Capella</a> - Obeo hosted Capella environments for browser-based collaborative modeling<span class="tags"><code>Capella</code> <code>tool</code> <code>paid</code> (2026)</span></li>
+<li><a href="https://github.com/labs4capella/mms-capella">mms-capella</a> - OpenMBEE Model Management System connector for Capella models<span class="tags"><code>Capella</code> <code>plugin</code> (2020)</span></li>
+<li><a href="https://github.com/eclipse-capella/capella-deferred-merge">Deferred Merge</a> - Capella add-on that creates patchsets from model comparisons for merge workflows<span class="tags"><code>Capella</code> <code>plugin</code> (2024)</span></li>
+</ul>
+</div></section>
+
+<section id="books-courses-and-training"><div class="wrap">
+  <div class="shead"><span class="label">&sect;07 &middot; Books, courses, and training</span><h2>Books, courses, and training</h2></div>
+  <ul class="entry-list">
+<li><a href="https://shop.elsevier.com/books/model-based-system-and-architecture-engineering-with-the-arcadia-method/voirin/978-1-78548-169-7">Model-based System and Architecture Engineering with the Arcadia Method (Voirin)</a> - Elsevier book by Jean-Luc Voirin on Arcadia engineering perspectives<span class="tags"><code>Capella</code> <code>Arcadia</code> <code>book</code> <code>paid</code> (2017)</span></li>
+<li><a href="https://shop.elsevier.com/books/systems-architecture-modeling-with-the-arcadia-method/roques/978-1-78548-168-0">Systems Architecture Modeling with the Arcadia Method (Roques)</a> - Elsevier book by Pascal Roques on Arcadia architecture modeling with Capella<span class="tags"><code>Capella</code> <code>Arcadia</code> <code>book</code> <code>paid</code> (2017)</span></li>
+<li><a href="https://www.obeosoft.com/en/services/training/capella-training">Obeo Capella training</a> - Commercial Capella and Arcadia training courses from Obeo<span class="tags"><code>Capella</code> <code>Arcadia</code> <code>course</code> <code>paid</code> (2026)</span></li>
+<li><a href="https://youtu.be/WSzlN4YT3gM">Discover Capella in 2 minutes</a> - Short official video introducing the Capella MBSE workbench<span class="tags"><code>Capella</code> <code>video</code> (2026)</span></li>
+<li><a href="https://youtu.be/97Bq80WHXKs">Spirit of Arcadia and Capella</a> - Eight-minute official video on the spirit of Arcadia and Capella<span class="tags"><code>Capella</code> <code>Arcadia</code> <code>video</code> (2026)</span></li>
+</ul>
+</div></section>
+
+<section id="community-and-events"><div class="wrap">
+  <div class="shead"><span class="label">&sect;08 &middot; Community and events</span><h2>Community and events</h2></div>
+  <ul class="entry-list">
+<li><a href="https://mbse-capella.org/capella_days_2026.html">Capella Days 2026</a> - Tenth Capella Days edition hub (1-3 Dec 2026, online) with program and registration<span class="tags"><code>Capella</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://mbse-capella.org/capella_days.html">Capella Days archive</a> - Index of Capella Days editions from Toulouse 2017 through the current year<span class="tags"><code>Capella</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://mbse-capella.org/capella_days_2025.html">Capella Days 2025</a> - Program and materials landing page for Capella Days Online 2025<span class="tags"><code>Capella</code> <code>docs</code> (2025)</span></li>
+<li><a href="https://mbse-capella.org/capella_days_2024.html">Capella Days 2024</a> - Program and materials landing page for Capella Days Online 2024<span class="tags"><code>Capella</code> <code>docs</code> (2024)</span></li>
+<li><a href="https://forum.mbse-capella.org/">Capella Forum</a> - Community forum for Capella users and developers<span class="tags"><code>Capella</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://mbse-capella.org/webinars.html">Capella webinars</a> - Catalog of Capella product and method webinars<span class="tags"><code>Capella</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://www.youtube.com/EclipseCapella">Eclipse Capella on YouTube</a> - Official Capella channel for demos, webinars, and Capella Days talks<span class="tags"><code>Capella</code> <code>video</code> (2026)</span></li>
+<li><a href="https://www.obeosoft.com/en/capella-mailing-list">Capella mailing list</a> - Announcement and community mailing list signup for Capella news<span class="tags"><code>Capella</code> <code>docs</code> (2026)</span></li>
+</ul>
+</div></section>
+
+<section id="example-models-and-case-studies"><div class="wrap">
+  <div class="shead"><span class="label">&sect;09 &middot; Example models and case studies</span><h2>Example models and case studies</h2></div>
+  <ul class="entry-list">
+<li><a href="https://download.eclipse.org/capella/samples/">Capella sample models</a> - Official Capella sample model packages by release, including current and older builds<span class="tags"><code>Capella</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://download.eclipse.org/capella/samples/7.1.0/InFlightEntertainmentSystem.zip">In-Flight Entertainment sample model</a> - Downloadable IFE Capella sample model project for Capella 7.1.0<span class="tags"><code>Capella</code> <code>has-model</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://download.eclipse.org/capella/samples/7.1.0/LevelCrossingTrafficControl.zip">Level Crossing Traffic Control sample</a> - Downloadable level-crossing Capella sample model project for Capella 7.1.0<span class="tags"><code>Capella</code> <code>has-model</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://mbse-capella.org/resources/doc/IFE_docgen/output/index.html">IFE HTML documentation example</a> - Generated XHTML documentation example from the In-Flight Entertainment Capella model<span class="tags"><code>Capella</code> <code>docs</code> (2026)</span></li>
+<li><a href="https://mbse-capella.org/case_studies.html">Capella case studies</a> - Index of published industrial Capella and Arcadia adoption case studies<span class="tags"><code>Capella</code> <code>Arcadia</code> <code>case-study</code> (2026)</span></li>
+<li><a href="https://mbse-capella.org/resources/pdf/Case_Study_Rolls_Royce.pdf">Rolls-Royce turbofan case study</a> - Rolls-Royce use of Arcadia and Capella on a large civil turbofan architecture<span class="tags"><code>Capella</code> <code>Arcadia</code> <code>case-study</code> (2023)</span></li>
+<li><a href="https://mbse-capella.org/resources/pdf/Case_Study_ArianeGroup.pdf">ArianeGroup case study</a> - ArianeGroup Capella adoption for launch-vehicle and strategic-missile engineering<span class="tags"><code>Capella</code> <code>case-study</code> (2023)</span></li>
+<li><a href="https://mbse-capella.org/resources/pdf/Case_Study_CNES.pdf">CNES operational case study</a> - CNES operational Capella landing for space system digital engineering<span class="tags"><code>Capella</code> <code>case-study</code> (2023)</span></li>
+<li><a href="https://mbse-capella.org/resources/pdf/Case_Study_DB.pdf">Deutsche Bahn railway case study</a> - Deutsche Bahn model-centric Capella environment for future railway system design<span class="tags"><code>Capella</code> <code>case-study</code> (2023)</span></li>
+<li><a href="https://mbse-capella.org/resources/pdf/Case_Study_Framatome.pdf">Framatome nuclear case study</a> - Progressive Capella MBSE deployment in French nuclear system design at Framatome<span class="tags"><code>Capella</code> <code>case-study</code> (2023)</span></li>
+<li><a href="https://mbse-capella.org/resources/pdf/Case_Study_Continental.pdf">Continental ITS case study</a> - Continental use of Capella for intelligent transportation system architecture work<span class="tags"><code>Capella</code> <code>case-study</code> (2023)</span></li>
+<li><a href="https://mbse-capella.org/resources/pdf/Case_Study_NavalGroup.pdf">Naval Group case study</a> - Naval Group move from document-driven engineering to Capella digital continuity<span class="tags"><code>Capella</code> <code>case-study</code> (2023)</span></li>
+<li><a href="https://mbse-capella.org/resources/pdf/Case_Study_UKAEA.pdf">UKAEA STEP fusion case study</a> - UKAEA Capella conceptual design work on the STEP fusion power plant<span class="tags"><code>Capella</code> <code>case-study</code> (2023)</span></li>
+<li><a href="https://mbse-capella.org/resources/pdf/Case_Study_Thermo_Fisher_Scientific.pdf">Thermo Fisher case study</a> - Thermo Fisher company-wide Capella reference architecture assets for design decisions<span class="tags"><code>Capella</code> <code>case-study</code> (2023)</span></li>
+<li><a href="https://mbse-capella.org/resources/pdf/Case_Study_Thales_AUS.pdf">Thales Australia ATM case study</a> - Thales Australia Capella transformation of a complex air traffic management system<span class="tags"><code>Capella</code> <code>case-study</code> (2023)</span></li>
+<li><a href="https://mbse-capella.org/resources/pdf/Case_Study_AutonomousTrain.pdf">Autonomous Train consortium case study</a> - Multi-company autonomous train consortium collaboration using Capella<span class="tags"><code>Capella</code> <code>case-study</code> (2023)</span></li>
+</ul>
+</div></section>
+
+<section id="commercial-offers"><div class="wrap">
+  <div class="shead"><span class="label">&sect;10 &middot; Commercial offers</span><h2>Commercial offers</h2></div>
+  <ul class="entry-list">
+<li><a href="https://www.obeosoft.com/en/capella-professional-offer">Capella Professional Offer (Obeo)</a> - Obeo commercial Capella offer covering products, coaching, training, and integration<span class="tags"><code>Capella</code> <code>tool</code> <code>paid</code> (2026)</span></li>
+<li><a href="https://www.obeosoft.com/en/products/publication-for-capella">Publication for Capella</a> - Obeo product for publishing Capella model content to stakeholders<span class="tags"><code>Capella</code> <code>tool</code> <code>paid</code> (2026)</span></li>
+<li><a href="https://www.obeosoft.com/en/products/ai-for-capella">AI for Capella</a> - Obeo product connecting Capella models to AI assistance workflows<span class="tags"><code>Capella</code> <code>tool</code> <code>paid</code> (2026)</span></li>
+<li><a href="https://www.obeosoft.com/en/products/sysml-bridge-for-capella">SysML Bridge for Capella</a> - Obeo bridge between Capella/Arcadia models and SysML tooling<span class="tags"><code>SysML-general</code> <code>tool</code> <code>paid</code> (2026)</span></li>
+<li><a href="https://mbse-capella.org/services.html">Capella ecosystem services</a> - Directory of training, coaching, and integration service offers around Capella<span class="tags"><code>Capella</code> <code>docs</code> (2026)</span></li>
+</ul>
+</div></section>
+
+<section id="install-usage"><div class="wrap">
+  <div class="shead"><span class="label">&sect;11 &middot; Install and usage</span><h2>Nothing to install</h2></div>
+  <p class="lead">Nothing to install. This list is a curated index: browse it on GitHub, or <a href="https://github.com/jgsystemsconsulting/awesome-capella">clone the repository</a>.</p>
+<p class="lead" style="margin-top:1rem">Open the Contents at the top and jump to a section, or search the page with your browser's find function. Open any entry's link to reach the upstream resource; the list never re-hosts content. To suggest a resource or report a defect, use the Support channels below (or open a pull request that follows CONTRIBUTING.md).</p>
+<p class="lead" style="margin-top:1rem">See <a href="https://github.com/jgsystemsconsulting/awesome-capella/blob/main/CHANGELOG.md">CHANGELOG</a> for versions and the release history. Current release 0.1.0 (2026-09-17).</p>
+</div></section>
+
+<section id="support"><div class="wrap">
+  <div class="shead"><span class="label">&sect;12 &middot; Support</span><h2>Support channels</h2></div>
+  <p class="lead">Bug or dead link: <a href="https://github.com/jgsystemsconsulting/awesome-capella/issues/new?template=bug_report.yml">bug report form</a>. Suggest a resource (the list's improvement channel): <a href="https://github.com/jgsystemsconsulting/awesome-capella/issues/new?template=suggest-resource.yml">suggestion form</a>. Security issues: <a href="https://github.com/jgsystemsconsulting/awesome-capella/security/advisories/new">private security advisory</a> (see <a href="https://github.com/jgsystemsconsulting/awesome-capella/blob/main/SECURITY.md">SECURITY.md</a>).</p>
+<p class="lead" style="margin-top:1rem">SysML v2 language resources belong on the sibling list: <a href="https://github.com/jgsystemsconsulting/awesome-sysml-v2">awesome-sysml-v2</a>.</p>
+</div></section>
+
+</main>
+<footer><div class="wrap">
+  <div class="tblock">
+    <div class="tcell"><span class="tl">Product</span><b>awesome-capella</b></div>
+    <div class="tcell"><span class="tl">Rev</span><b>0.1.0</b></div>
+    <div class="tcell"><span class="tl">Licence</span><b>CC0-1.0</b></div>
+    <div class="tcell"><span class="tl">Repository</span><b>jgsystemsconsulting/awesome-capella</b></div>
+    <div class="tcell"><span class="tl">Engine</span><b>jgs-site-template</b></div>
+    <div class="tcell"><span class="tl">Owner</span><b>JG Systems Consulting Ltd</b></div>
+  </div>
+  <p class="fnote">Licence: <a href="https://github.com/jgsystemsconsulting/awesome-capella/blob/main/LICENSE">CC0-1.0</a>. <a href="https://labs.jgsystemsconsulting.com/licensing.html">Licence enquiries</a>. Maintained by JG Systems Consulting Ltd.</p>
+</div></footer>
+
 </body>
 </html>
